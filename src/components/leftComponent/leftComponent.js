@@ -7,7 +7,7 @@ const leftComponent = (props) => {
   return (
     <>
       <input
-        type="text"
+        type="number"
         className="firstInput"
         value={props.leftData[props.firstSelect.valueOf()]}
         onChange={(e) => props.onChange1(e.target.value)}
