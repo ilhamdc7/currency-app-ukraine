@@ -1,12 +1,8 @@
 import React from "react";
-import './leftComponent.css';
-
+import "./leftComponent.css";
 
 
 const leftComponent = (props) => {
-
-
-
 
   return (
     <>

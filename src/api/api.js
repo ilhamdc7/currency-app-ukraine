@@ -1,7 +1,6 @@
 import axios from "axios";
 
 const currencyOneUrl = 'https://api.fastforex.io/fetch-multi?from=UAH&to=USD&api_key=00ce463218-c9ab8847ab-rahxn6'
-
 export const getCurrency = async() => {
     return(
         await axios.get(currencyOneUrl)
